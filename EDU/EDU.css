@@ -1,0 +1,536 @@
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#header {
+    background: linear-gradient(#3230303f, #26242431), url(/EDU/img/home-banner.jpg)center/cover;
+    height: 100vh;
+}
+
+.all-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+nav a {
+    color: #002347;
+    font: 600 17px arial;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+nav a:hover {
+    color: #fdc632;
+}
+
+.all-header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+
+}
+
+.header-content h2 {
+    font: 600 20px arial;
+    color: #002347;
+}
+
+.header-content h1 {
+    font: 600 48px arial;
+    color: #002347;
+    padding: 15px 0 25px 0;
+}
+.btn1{
+    background: #002347;
+    color: #fdc632;
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 17px 35px;
+    border: 0;
+    border-radius: 4px;
+    font: 600 14px arial;
+    transition: .4s;
+    cursor: pointer;
+}
+.btn1:hover{
+    background: transparent;
+    border: 1px solid #002347;
+    color: #002347;
+}
+.btn2{
+    background: #fdc632;
+    color: #002347;
+    margin-left: 10px;
+    text-transform: uppercase;
+    padding: 17px 35px;
+    border: 0;
+    border-radius: 4px;
+    font: 600 14px arial;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background: #002347;
+    color: #fdc632;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.section-1-title {
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+.section-1-title h2 {
+    font: 600 36px arial;
+    color: #002347;
+}
+
+.section-1-title p {
+    font: italic 500 16px arial;
+    color: #7b838a;
+    padding: 15px 0 100px 0;
+}
+
+#all-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f9f9ff;
+    width: 300px;
+    padding: 30px;
+    transition: .4s;
+}
+.card:hover {
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.403);
+}
+
+.card h1 {
+    color: #002347;
+    font: 600 20px arial;
+    padding: 15px 0 10px 0;
+}
+
+.card p {
+    color: #7b838a;
+    font: 500 16px arial;
+    line-height: 22px;
+}
+
+.card i {
+    color: #002347;
+    font-size: 40px;
+}
+
+
+
+
+#all-cards1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0;
+}
+
+.cards-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px #7b838a2e;
+
+}
+
+.cards-1:hover {
+    box-shadow: 0 0 10px #7b838a4e;
+}
+
+.card1 h1 {
+    font: 600 20px arial;
+    padding-bottom: 10px;
+    color: #002347;
+}
+
+.card1 p {
+    font: 500 16px arial;
+    color: #7b838a;
+    line-height: 23px;
+    width: 300px;
+}
+
+.card1-image img {
+    border-radius: 10px;
+    width: 120px;
+}
+
+#all-cards2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-2 {
+    margin: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #7b838a3e;
+
+}
+
+.cards-2:hover {
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.334);
+}
+
+.card2 h1 {
+    font: 600 20px arial;
+    color: black;
+    text-align: center;
+    padding: 30px 50px 0 50px;
+
+}
+
+.card2 h2 {
+    font: 500 14px arial;
+    color: #7b838a;
+    padding: 10px;
+    text-align: center;
+}
+
+.card2 p {
+    font: 500 16px arial;
+    color: #7b838a;
+    padding: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.card-i {
+    padding: 30px;
+    color: #7b838a5c;
+    display: flex;
+    justify-content: space-around;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.f:hover {
+    color: #fdc632;
+}
+
+.t:hover {
+    color: #fdc632;
+}
+
+.in:hover {
+    color: #fdc632;
+}
+
+.p:hover {
+    color: #fdc632;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#box {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 60px;
+}
+
+.box-1 {
+    border: solid 10px #f9f9ff;
+    padding: 30px 80px;
+    border-radius: 5px;
+
+}
+
+
+.box-1 h2 {
+    font: 600 30px arial;
+    color: #002347;
+    padding: 10px;
+
+
+
+}
+
+.box-1 p {
+    font: 500 16px arial;
+    color: #7b838a;
+    line-height: 30px;
+    padding: 10px;
+
+
+
+}
+
+.box-1 button {
+    border-radius: 5px;
+    background-color: #fdc632;
+    font: 500 13px arial;
+    padding: 20px 60px;
+    color: #002347;
+    border: none;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.box-1 button:hover {
+    background-color: #002347;
+    color: #fdc632;
+}
+
+.image img {
+    width: 500px;
+}
+
+.button i {
+    color: #002347;
+
+}
+
+
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#all-contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.contact {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.contact-content {
+    margin-left: 20px;
+}
+
+.contact-icon i {
+    color: #002347;
+    font-size: 20px;
+}
+
+.contact-content h1 {
+    font: 600 16px arial;
+    color: #002347;
+    padding-bottom: 10px;
+}
+
+.contact-content p {
+    font: 500 14px arial;
+    color: #7b838a;
+}
+
+.contact-inputs input,
+.contact-text textarea {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    border: 0;
+    border: 1px solid #7b838a47;
+    outline: none;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.contact-inputs input::placeholder,
+.contact-text textarea::placeholder {
+    color: #002347;
+    font: 500 13px arial;
+}
+
+
+.contact-btn button {
+    float: right;
+    color: #002347;
+    background-color: #fdc632;
+    padding: 16px 40px;
+    text-transform: uppercase;
+    font: 600 13px arial;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .4s;
+    margin: 0 0 100px 0;
+}
+
+.contact-btn button:hover {
+    background-color: #002347;
+    color: #fdc632;
+}
+
+.header-content-btns button {
+    padding: 10px 15px;
+    font-size: 10px;
+}
+
+@media(min-width:300px) and (max-width:768px) {
+    .container {
+        width: 90%;
+    }
+
+    .all-nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-right: 50px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        margin: 20px 0 0 190px;
+    }
+
+    .header-content h1 {
+        font-size: 35px;
+    }
+
+    #all-cards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    #all-cards1 {
+        flex-wrap: wrap;
+    }
+
+    .cards-1 {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .card1 h1 {
+        margin-top: 10px;
+    }
+
+    .card1 p {
+        width: 90%;
+    }
+
+    #all-cards2 {
+        flex-wrap: wrap;
+        margin-left: -30px;
+    }
+
+    #box {
+        display: block;
+    }
+
+    .image img {
+        width: 90%;
+        margin-left: -50px;
+    }
+
+    .box-1 {
+        width: 60%;
+        margin-left: -50px;
+    }
+
+    .box-1 h2 {
+        margin-left: -50px;
+    }
+
+    .box-1 p {
+        margin-left: -50px;
+    }
+
+    .box-1 button {
+        margin-left: -50px;
+        padding: 10px 70px;
+    }
+
+    .iframe iframe {
+        width: 90%;
+    }
+
+    #all-contacts {
+        display: block;
+    }
+
+    .contact-inputs input {
+        width: 90%;
+    }
+
+    .contact-text textarea {
+        width: 90%;
+    }
+
+    .contact-btn button {
+        margin-right: 70px;
+        padding: 10px 60px;
+    }
+}
+
+@media(max-width:1100px) and (min-width:768px) {
+    .container {
+        width: 90%;
+    }
+
+    .logo {
+        margin-right: 50px;
+    }
+
+    .navbar ul {
+        margin: 0 0 0 100px;
+    }
+    .card{
+        margin-left: 30px;
+    }
+    #all-cards1{
+        display: block;
+        margin-left: 50px;
+    }
+    .cards-1{
+        margin-top: 30px;
+    }
+    #all-cards2{
+        flex-wrap: wrap;
+    }
+    #box{
+        display: block;
+    }
+    .iframe iframe{
+        width: 90%;
+    }
+    #all-contacts{
+        display: block;
+    }
+    .contact-btn button{
+        margin-right: 700px;
+    }
+}
